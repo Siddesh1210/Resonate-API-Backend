@@ -1071,4 +1071,411 @@ router.get("/allearbuds", (req, res) => {
     return res.status(200).json({ data: data });
   });
 
+
+  router.get("/alllaptops", (req, res) => {
+    const data = [
+      {
+        productId: 201,
+        productName: "ASUS Vivobook 16X",
+        mrp: 89999,
+        salePrice: 55250,
+        rating: 4.1,
+        description:
+          "ASUS Vivobook 16X AMD Ryzen 7 Octa Core 5800HS - (16 GB/512 GB SSD/Windows 11 Home) M1603QA-MB712WS Notebook  (16 inch, Transparent Silver, 1.8 kg, With MS Office)",
+        category: "notebook",
+        features: [
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+            title: "ENC Mode",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+            title: "12Hr Battery",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+            title: "20mm Driver",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+            title: "Smart Control",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+            title: "IPX5 Water Res.",
+          }
+        ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/g/n/i/m1603qa-mb712ws-notebook-asus-original-imagghmes5azfudv.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/o/7/v/m1603qa-mb712ws-notebook-asus-original-imagghmegygfygnb.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/6/b/j/m1603qa-mb712ws-notebook-asus-original-imagghme7gthcaxa.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/o/7/v/m1603qa-mb712ws-notebook-asus-original-imagghmegygfygnb.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 202,
+        productName: "HP Victus",
+        mrp: 678999,
+        salePrice: 52899,
+        rating: 4.7,
+        description:
+          "HP Victus AMD Ryzen 5 Hexa Core 5600H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/AMD Radeon RX 6500M/60 Hz) 15-fb0147AX Gaming Laptop  (15.6 Inch, Performance Blue, 2.37 Kg)",
+        category: "gaming",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "22Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "30mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/8/i/j/-original-imagthcbgurdzwuc.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/j/q/x/-original-imagthcbb58yyja2.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/v/c/7/-original-imagua7exgfhwajf.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/j/q/x/-original-imagthcbb58yyja2.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 203,
+        productName: "Acer Aspire 3",
+        mrp: 44999,
+        salePrice: 29999,
+        rating: 4.2,
+        description:
+          "Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop  (15.6 inch, Pure Silver, 1.7 Kg)",
+        category: "thinlight",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "20Hr Battery",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "22mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/t/h/j/-original-imagwyp2uee8zxez.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/w/4/2/-original-imagwyp2ajta58be.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/y/k/b/-original-imagwyp2x4mtgqya.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/w/4/2/-original-imagwyp2ajta58be.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 204,
+        productName: "ASUS Chromebook",
+        mrp: 31999,
+        salePrice: 16999,
+        rating: 4.5,
+        description:
+          "ASUS Chromebook Intel Celeron Dual Core N4500 - (8 GB/128 GB EMMC Storage/Chrome OS) CX1500CKA-EJ0247 Chromebook  (15.6 Inch, Transparent Silver, 1.80 Kg)",
+        category: "chromebook",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "10Hr Battery",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/z/7/g/-original-imagtmsye5fumwdf.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/i/o/v/-original-imagsz5rj74vfkmq.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/l/0/l/-original-imagsz5rgtspbtnp.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/h/q/b/-original-imagsz5rh8eyh5hx.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 205,
+        productName: "HP ZBook",
+        mrp: 161999,
+        salePrice: 131999,
+        rating: 4.6,
+        description:
+          "HP HP ZBook Firefly Intel Core i7 11th Gen - (16 GB/1 TB SSD/Windows 10 Home) ZBook Firefly 15U G7 Notebook  (15.6 inch, Black)",
+        category: "notebook",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Life",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "30mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/k/t/p/hp-zbook-firefly-15u-g7-notebook-hp-original-imaggy6fzqd29khg.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/w/9/k/hp-zbook-firefly-15u-g7-notebook-hp-original-imaggy6ftjhprabh.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/d/r/e/hp-zbook-firefly-15u-g7-notebook-hp-original-imaggy6fkgwhbqgt.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/h/h/g/hp-zbook-firefly-15u-g7-notebook-hp-original-imaggy6fn72dhjsm.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 206,
+        productName: "ASUS Gaming F15",
+        mrp: 79999,
+        salePrice: 52999,
+        rating: 4.4,
+        description:
+          "ASUS TUF Gaming F15 - AI Powered Gaming Intel Core i5 11th Gen 11260H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/70 TGP) FX506HF-HN076W Gaming Laptop  (15.6 Inch, Graphite Black, 2.30 kg)",
+        category: "gaming",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "20Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "40mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/v/y/z/-original-imagtucnqsqpbvk6.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/s/3/y/-original-imagt3tgpdzt75ag.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/n/f/l/-original-imagu7nasgkxafmx.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/s/3/y/-original-imagt3tgpdzt75ag.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 207,
+        productName: "HP Ryzen 3 ",
+        mrp: 47999,
+        salePrice: 32948,
+        rating: 4.5,
+        description:
+          "HP AMD Ryzen 3 Quad Core 5300U - (8 GB/512 GB SSD/Windows 11 Home) 15s-eq2143au Thin and Light Laptop  (15.6 inch, Natural Silver, 1.69 Kg, With MS Office)",
+        category: "thinlight",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "20Hr Battery",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "20mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/r/a/x/-original-imagykgpfafenrvw.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/o/z/j/-original-imagtun6kymwvwup.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/y/z/a/-original-imagtun6hy33vzwx.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/o/z/j/-original-imagtun6kymwvwup.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 208,
+        productName: "HP Chromebook",
+        mrp: 47999,
+        salePrice: 30999,
+        rating: 4.4,
+        description:
+          "HP Chromebook (2023) MediaTek Kompanio 1200 - (8 GB/256 GB SSD/Chrome OS) 13b-ca0006MU Chromebook  (13.3 Inch, Mica Silver, 1.49 Kg)",
+        category: "chromebook",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "10Hr Battery",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "10mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/p/p/13b-ca0006mu-thin-and-light-laptop-hp-original-imagzyavzxwvddgw.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/x/j/o/13b-ca0006mu-thin-and-light-laptop-hp-original-imagzyavfveysh5p.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/u/u/c/13b-ca0006mu-thin-and-light-laptop-hp-original-imagzyavg97ebmqg.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/n/7/13b-ca0006mu-thin-and-light-laptop-hp-original-imagzyavsvgxxfge.jpeg?q=70&crop=false"
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 209,
+        productName: "DELL Vostro",
+        mrp: 85499,
+        salePrice: 73999,
+        rating: 4.2,
+        description:
+          "DELL Vostro Intel Core i5 12th Gen 1240P - (16 GB/512 GB SSD/Windows 11 Home) Vostro 5620 Notebook  (16 Inch, Titan gray, 1.91 Kg, With MS Office)",
+        category: "notebook",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "20Hr Battery",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "20mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/l1mh7rk0/computer/w/5/m/vostro-5620-notebook-dell-original-imagd5kxzjhyw9hx.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/l1mh7rk0/computer/c/x/p/vostro-5620-notebook-dell-original-imagd5kx5uuayvyf.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/l1mh7rk0/computer/y/d/u/vostro-5620-notebook-dell-original-imagd5kxfbkx8wzu.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/l1mh7rk0/computer/c/x/p/vostro-5620-notebook-dell-original-imagd5kx5uuayvyf.jpeg?q=70&crop=false",
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      },
+      {
+        productId: 210,
+        productName: "Lenovo Ideapad ",
+        mrp: 31999,
+        salePrice: 24999,
+        rating: 4.1,
+        description:
+          "Lenovo Ideapad Slim 3 MediaTek Kompanio 520 - (8 GB/128 GB EMMC Storage/Chrome OS) 14M868 Chromebook  (14 inch, Abyss Blue, 1.3 Kg)",
+        category: "chromebook",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "12Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/f/6/g/-original-imagy3tzbj3xgvu4.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/3/v/-original-imagy3tzkqhg3wen.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/i/6/i/-original-imagy3tzwhncdkqa.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/3/v/-original-imagy3tzkqhg3wen.jpeg?q=70&crop=false"
+        ],
+        coverImage:
+          "https://dlcdnwebimgs.asus.com/files/media/5aa8cb62-57ee-482e-b5f4-6bdb6a5ba3a9/images/DT/banner1.webp",
+      }
+    ];
+    return res.status(200).json({ data: data });
+  });
+
 export default router;
