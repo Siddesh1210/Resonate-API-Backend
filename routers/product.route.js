@@ -343,8 +343,8 @@ router.get("/allwatches", (req, res) => {
     {
       productId: 4,
       productName: "Ninja Call 2",
-      mrp: 1399,
-      salePrice: 7999,
+      mrp: 13999,
+      salePrice: 2999,
       rating: 4.5,
       description:
         "A 43mm (1.7″ inch) Full-Touch Display for better view. You can also enjoy wireless calling with the feature of Bluetooth Calling along with a built-in mic and speaker.",
@@ -586,8 +586,8 @@ router.get("/allwatches", (req, res) => {
     {
       productId: 10,
       productName: "Ninja Fit Pro",
-      mrp: 1699,
-      salePrice: 10999,
+      mrp: 10699,
+      salePrice: 2999,
       rating: 4.6,
       description:
         "Fire-Boltt introduces Ninja Fit Pro with a 50.8mm (2.0) large display, BT calling, 600 nits peak brightness, 250mAh battery, Voice assistant, 100+ watch faces and much more. ",
@@ -665,5 +665,410 @@ router.get("/allwatches", (req, res) => {
   ];
   return res.status(200).json({ data: data });
 });
+
+router.get("/allearbuds", (req, res) => {
+    const data = [
+      {
+        productId: 101,
+        productName: "Ninja Pro",
+        mrp: 3999,
+        salePrice: 999,
+        rating: 4.7,
+        description:
+          "Fire Pods Ninja Pro 403 comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "ninja",
+        features: [
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+            title: "ENC Mode",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+            title: "30Hr Play",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+            title: "13mm Driver",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+            title: "Smart Control",
+          },
+          {
+            img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+            title: "IPX5 Water Res.",
+          }
+        ],
+        images: [
+          "https://www.fireboltt.com/cdn/shop/products/black-1_400x.png?v=1671021119",
+          "https://www.fireboltt.com/cdn/shop/products/black-2_540x.png?v=1671021119",
+          "https://www.fireboltt.com/cdn/shop/products/black-3_540x.png?v=1671021119",
+          "https://www.fireboltt.com/cdn/shop/products/black-4_540x.png?v=1671021119",
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/top_Banner_web.jpg?v=1674046502",
+      },
+      {
+        productId: 102,
+        productName: "Aura Buds",
+        mrp: 4999,
+        salePrice: 1599,
+        rating: 4.3,
+        description:
+          "Aura Buds, comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "nextgen",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.gonoise.com/cdn/shop/files/Artboard1_008d9734-950c-4f5b-ba52-89576e0d7e79.png?v=1709904212",
+          "https://www.gonoise.com/cdn/shop/files/Artboard4_66c6d8d2-4d91-49bb-abc2-290ee68cb683.png?v=1709904212",
+          "https://www.gonoise.com/cdn/shop/files/Artboard2_07f7e983-da1c-4ccc-a9f1-1e7282926bcb.png?v=1709904212",
+          "https://www.gonoise.com/cdn/shop/files/Artboard3_5a2a5d92-1fa1-4486-a73b-dd7930432143.png?v=1709904212",
+        ],
+        coverImage:
+          "https://www.gonoise.com/cdn/shop/files/Buds-Aura_Ui-web_01-min.webp?v=1700712611",
+      },
+      {
+        productId: 103,
+        productName: "Airdopes 163",
+        mrp: 10999,
+        salePrice: 1399,
+        rating: 4.2,
+        description:
+          "Airdopes 163 comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "classic",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.boat-lifestyle.com/cdn/shop/products/main_black_1a9582f0-1870-4ab6-a0b0-5b977a8851a6_600x.png?v=1671193643",
+          "https://www.boat-lifestyle.com/cdn/shop/products/AD161-FI_Black02_f16c31ae-2dd5-4405-9e85-47e5a7f1f319_1000x.jpg?v=1674118124",
+          "https://www.boat-lifestyle.com/cdn/shop/products/AD161-FI_Black03_f5afffc7-0b71-4073-bcf2-017b8b7e8157_1000x.jpg?v=1674118125",
+          "https://www.boat-lifestyle.com/cdn/shop/products/AD161-FI_Black02_f16c31ae-2dd5-4405-9e85-47e5a7f1f319_1000x.jpg?v=1674118124",
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/P401_top_banner_web.jpg?v=1671008322",
+      },
+      {
+        productId: 104,
+        productName: "RIGEL 711",
+        mrp: 10999,
+        salePrice: 1599,
+        rating: 4.5,
+        description:
+          "Rigel 711 comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "premium",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.fireboltt.com/cdn/shop/products/black-3_96d74f62-66d7-4c31-9357-2aeb3802d0c7_400x.png?v=1671429904",
+          "https://www.fireboltt.com/cdn/shop/products/black-1_3620c8b0-eb11-439a-aff7-92bf3a2f16d0_540x.png?v=1671429904",
+          "https://www.fireboltt.com/cdn/shop/products/black-2_5bcc11a8-abe3-4252-acdc-b354ea09f10e_540x.png?v=1671429904",
+          "https://www.fireboltt.com/cdn/shop/products/black-1_3620c8b0-eb11-439a-aff7-92bf3a2f16d0_540x.png?v=1671429904",
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/711R_top_banner_mobile.jpg?v=1671184883",
+      },
+      {
+        productId: 105,
+        productName: "VS102 Pro",
+        mrp: 7999,
+        salePrice: 1999,
+        rating: 4.8,
+        description:
+          "VS102 Pro comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "premium",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.gonoise.com/cdn/shop/files/Artboard1_6cc79df8-390f-4394-b356-bf7c9d019500.png?v=1703575048",
+          "https://www.gonoise.com/cdn/shop/files/Artboard1copy3_14d2c6f5-d36f-416d-a21f-fa40a607994e.png?v=1703575048",
+          "https://www.gonoise.com/cdn/shop/files/Artboard1copy_bd21c227-6e02-4ca6-b1cc-114a9453861b.png?v=1703575048",
+          "https://www.gonoise.com/cdn/shop/files/Artboard1copy3_14d2c6f5-d36f-416d-a21f-fa40a607994e.png?v=1703575048",
+        ],
+        coverImage:
+          "https://www.gonoise.com/cdn/shop/files/6_96a84697-5214-4727-b168-a018fbce8b21_1900x.png?v=1684831573",
+      },
+      {
+        productId: 106,
+        productName: "Ninja VS-401",
+        mrp: 4999,
+        salePrice: 1999,
+        rating: 4.4,
+        description:
+          " Ninja VS-401 comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "ninja",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.gonoise.com/cdn/shop/files/3_88bf2419-2700-41d2-8a84-e2d60c7955eb.png?v=1705041037",
+          "https://www.gonoise.com/cdn/shop/files/4_e0cd973f-2014-4fe1-a238-51e3fd703f65.png?v=1705041037",
+          "https://www.gonoise.com/cdn/shop/files/2_2bff9396-401a-4819-aae2-5540bc6e6a04.png?v=1705041037",
+          "https://www.gonoise.com/cdn/shop/files/4_e0cd973f-2014-4fe1-a238-51e3fd703f65.png?v=1705041037",
+        ],
+        coverImage:
+          "https://www.gonoise.com/cdn/shop/files/2_2a763ab4-f84f-4c5a-bfbc-f174c5b74fc4.webp?v=1686142126",
+      },
+      {
+        productId: 107,
+        productName: "Nirvana ion",
+        mrp: 7999,
+        salePrice: 2499,
+        rating: 4.5,
+        description:
+          "Nirvana Ion comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "premium",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.boat-lifestyle.com/cdn/shop/products/ion-W_800x.png?v=1678780574",
+          "https://www.boat-lifestyle.com/cdn/shop/files/ION_WHITE_600x.jpg?v=1702007882",
+          "https://www.boat-lifestyle.com/cdn/shop/products/NirvanaION-FI_White02-a_1000x.png?v=1702007882",
+          "https://www.boat-lifestyle.com/cdn/shop/files/ION_WHITE_600x.jpg?v=1702007882",
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Product_Highlights_WEB_64.jpg?v=1705487468",
+      },
+      {
+        productId: 108,
+        productName: "Airdopes 121",
+        mrp: 4999,
+        salePrice: 999,
+        rating: 4.1,
+        description:
+          "Airdopes 121comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "nextgen",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.boat-lifestyle.com/cdn/shop/products/airdopes-121-v2-blue_600x.png?v=1678773275",
+          "https://www.boat-lifestyle.com/cdn/shop/files/5_1_92105eb3-3362-491a-9fb4-257fa5631307_1000x.jpg?v=1685541325",
+          "https://www.boat-lifestyle.com/cdn/shop/files/4_1_cc13a411-d41f-46ea-9cc2-6c194c52ed01_1000x.jpg?v=1685541325",
+          "https://www.boat-lifestyle.com/cdn/shop/files/5_1_92105eb3-3362-491a-9fb4-257fa5631307_1000x.jpg?v=1685541325"
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/M501_top_banner_web.jpg?v=1671190833",
+      },
+      {
+        productId: 109,
+        productName: "Ninja 601",
+        mrp: 5999,
+        salePrice: 1999,
+        rating: 4.7,
+        description:
+          "Ninja 601 comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant",
+        category: "ninja",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.fireboltt.com/cdn/shop/files/Blue_01_9f602203-d600-4410-910a-0f3d6f812e16_540x.png?v=1706097074",
+          "https://www.fireboltt.com/cdn/shop/files/Blue_02_f00fbb49-b6a9-4487-a09d-cd7651ff7de3_540x.png?v=1706097068",
+          "https://www.fireboltt.com/cdn/shop/files/Blue_04_cb2ebfd8-70ef-4458-9805-38c17ca4718b_540x.png?v=1706097067",
+          "https://www.fireboltt.com/cdn/shop/files/Blue_02_f00fbb49-b6a9-4487-a09d-cd7651ff7de3_540x.png?v=1706097068",
+        ],
+        coverImage:
+          "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/601G_top_banner_web.jpg?v=1671176836",
+      },
+      {
+        productId: 110,
+        productName: "Bud X Prime",
+        mrp: 10999,
+        salePrice: 1399,
+        rating: 4.6,
+        description:
+          "Bud X Prime comes with ENC mode, 30 hours of playtime, 13mm drivers, smart touch control, and IPX5 water resistant ",
+        category: "classic",
+        features: [
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/call-icon.png?v=1624516628",
+              title: "ENC Mode",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/battery-Icons.png?v=1624514399",
+              title: "30Hr Play",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/drivers-icon_c655ca03-16c0-4b13-a8e4-1ceae7561cfc.png?v=1624523520",
+              title: "13mm Driver",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/full-touch-icon_7814cf20-4627-4130-ba10-7fbfd593ef9b.png?v=1623731203",
+              title: "Smart Control",
+            },
+            {
+              img: "https://cdn.shopify.com/s/files/1/0137/0292/2286/files/waterproof-icon_958c40ec-defc-49e8-9ffc-ce34713d4eaa.png?v=1623390066",
+              title: "IPX5 Water Res.",
+            }
+          ],
+        images: [
+          "https://www.gonoise.com/cdn/shop/files/1.1_2_d71572ff-643a-4c75-a836-da9dbd21543a.png?v=1698042678",
+          "https://www.gonoise.com/cdn/shop/files/3_ec43ccc1-c545-42e6-8995-3237cc4e265d.png?v=1698042678",
+          "https://www.gonoise.com/cdn/shop/files/4_5fd263a4-f4b2-41ff-a5be-13f19dadbc9b.png?v=1698042678",
+        ],
+        coverImage:
+          "https://www.gonoise.com/cdn/shop/files/Slice_7_076d28fe-3ea9-4366-abee-34817f053c98.webp?v=1697627242",
+      }
+    ];
+    return res.status(200).json({ data: data });
+  });
 
 export default router;
